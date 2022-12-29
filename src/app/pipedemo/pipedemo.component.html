@@ -1,0 +1,34 @@
+<p>pipedemo works!</p>
+
+
+<div>
+    Today's Date:{{todaysDate | date:'fullDate'|lowercase}}
+</div>
+
+<div>
+
+    Get values:{{ obser | async }}
+</div>
+
+<div>
+    Iphone:  {{price}}<br>
+
+    Apply custom pipe get Value: {{price|count}}
+</div>
+<div>
+    Get Object:{{obj|json}}
+</div>
+
+<div>
+  
+    Name:  {{name}} <br>
+    apply pipe :{{name | uppercase }} <br>
+
+    apply custom pipe :{{name| countname}}  <br>
+
+    </div>
+    
+
+
+
+
