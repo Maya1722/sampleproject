@@ -6,18 +6,21 @@ import { Component, OnInit,Input, Output ,EventEmitter} from '@angular/core';
   styleUrls: ['./inout.component.css']
 })
 export class InoutComponent implements OnInit {
-  @Input() Employee:any;
+  @Input() employee:any;
   @Output() foodevent:EventEmitter<string>=new EventEmitter<string>(); //output food
 
   constructor() { }
 
   ngOnInit() {
-    console.log("From parent",this.Employee);
+    
+    console.log("get employee data",this.employee);
+    
     
   }
+  //function will call user enter s value text box
   addtofood(value){       //food event
 
-    this.foodevent.emit(value);
+  this.foodevent.emit(value);
 
   }
 

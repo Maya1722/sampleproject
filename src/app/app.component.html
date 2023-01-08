@@ -3,20 +3,22 @@
   <h1>
     Welcome to {{ title }}!
   </h1>
-  
 <!--<app-server></app-server>
-<app-ng-for></app-ng-for>
+<app-ng-for></app-ng-for>-->
+    <!--<div *ngFor="let e of Users">
+  
+<app-inout [employee]="e"></app-inout>
+</div>-->
 
-<div *ngFor="let data of Users">
-<app-inout [Employee]="data"></app-inout>
-</div>
+
+
  <ul *ngFor="let f of foods">
      <li>
       {{f}}
     </li>
   </ul>
 
-<app-inout (foodevent)="getDataFromChild($event)"></app-inout>-->
+<app-inout (foodevent)="getDataFromChild($event)"></app-inout>
 
 
 <!--<select (change)="uid=sid.value" #sid>   // on changes hook
@@ -33,5 +35,5 @@
 <app-comp3></app-comp3>
 <app-comp4></app-comp4>
 <app-comp5></app-comp5>-->
-<app-pipedemo></app-pipedemo>
+<!--<app-pipedemo></app-pipedemo>-->
 <router-outlet></router-outlet>

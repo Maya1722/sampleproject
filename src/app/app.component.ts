@@ -13,15 +13,22 @@ export class AppComponent {
   public uid:number; // onChanges hook use
   foods:string[]=[];   //output property
 
+  Users:any=[{
 
-  Users:any=[{ // input array
-
-     emp_name:"sanika",emp_id:1234, emp_salary:50000 ,emp_company:"wipro"
+   emp_name:'Sanika',emp_salary:'50000',emp_company:'wipro',emp_address:'pune'
   },
   {
-    emp_name:"maya",emp_id:834, emp_salary:60000 ,emp_company:"info"
+    emp_name:'aditi',emp_salary:'60000',emp_company:'amdocs',emp_address:'mumbai'
+  },
+  {
+
+    emp_name:'aditya',emp_salary:'35000',emp_company:'Hcl',emp_address:'pune'
+
   }
-  ]
+
+
+  ];
+  
 
 
 

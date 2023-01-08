@@ -1,14 +1,22 @@
-<p>inout works!</p>
-<p>demo works!</p>
-                  
-            
-                                    <!---   <p>Employee Name:{{Employee.emp_name}}</p>
-                                      <p>Employee Id:{{Employee.emp_id}}</p>
-                                         <p>Employee Salary: {{Employee.emp_salary}}</p>
-                                        <p>Employee company: {{Employee.emp_company}}</p>-->
-                  
-                        
-            
-
-<p>food name</p>
-      <input type="text" (keyup.enter)="addtofood(item.value)" #item>
+<!--<table class="table table-light">
+  <thead>
+<th>employee name</th>
+<th>employee salary</th>
+<th>employee company</th>
+<th>employee address</th>
+  </thead>
+  <tbody>
+    <tr>
+   <td>{{employee.emp_name}}</td>
+  <td>{{employee.emp_salary}}</td>
+  <td>{{employee.emp_company}}</td>
+    <td>{{employee.emp_address}}</td>
+    </tr>
+  
+  </tbody>
+</table>-->
+<p>
+  Enter food name
+</p>
+<!--user entering value on food text box-->
+<input type="text" (keyup.enter)="addtofood(item.value)" #item>
