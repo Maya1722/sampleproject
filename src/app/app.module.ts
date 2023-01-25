@@ -23,6 +23,8 @@ import { PipedemoComponent } from './pipedemo/pipedemo.component';
 import { CountPipe } from './pipe/count.pipe';
 import { CountnamePipe } from './pipe/countname.pipe';
 import { reactiveformComponent } from './reactiveform/reactiveform.component';
+import { Reactiveform2Component } from './reactiveform2/reactiveform2.component';
+import { TemplateformComponent } from './templateform/templateform.component';
 
 
 @NgModule({
@@ -46,7 +48,9 @@ import { reactiveformComponent } from './reactiveform/reactiveform.component';
     PipedemoComponent,
     CountPipe,
     CountnamePipe,
-    reactiveformComponent
+    reactiveformComponent,
+    Reactiveform2Component,
+    TemplateformComponent
     
   ],
   imports: [
