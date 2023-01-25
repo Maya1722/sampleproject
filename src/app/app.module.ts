@@ -12,7 +12,7 @@ import { NgswitchComponent } from './ngswitch/ngswitch.component';
 import { CustdireComponent } from './custdire/custdire.component';
 import { AssidireComponent } from './assidire/assidire.component';
 import { Servicecomp3Component } from './servicecomp3/servicecomp3.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import{HttpClientModule} from '@angular/common/http';
 import { Comp1Component } from './comp1/comp1.component';
 import { Comp2Component } from './comp2/comp2.component';
@@ -22,6 +22,7 @@ import { Comp5Component } from './comp5/comp5.component';
 import { PipedemoComponent } from './pipedemo/pipedemo.component';
 import { CountPipe } from './pipe/count.pipe';
 import { CountnamePipe } from './pipe/countname.pipe';
+import { reactiveformComponent } from './reactiveform/reactiveform.component';
 
 
 @NgModule({
@@ -45,12 +46,14 @@ import { CountnamePipe } from './pipe/countname.pipe';
     PipedemoComponent,
     CountPipe,
     CountnamePipe,
+    reactiveformComponent
     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    ReactiveFormsModule,
     HttpClientModule
 
     
